@@ -2,7 +2,6 @@
 
 ꒰ᐢ.   ̫ .ᐢ꒱ - hi there!
 
-
 ━O━O━━━━
 
 💌 Welcome to Bellie's Bulletin – a bot made with love so that your scrolling time can be a little happier! 
