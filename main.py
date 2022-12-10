@@ -30,7 +30,7 @@ def tweet(api: tweepy.API, message: str):
         tweeted_messages.add(message)
         print(f"Tweeted message: {message}")
 
-        time.sleep(3 * 60 * 60)
+        time.sleep(8 * 60 * 60)
 
         api.update_status(message)
 
@@ -42,5 +42,7 @@ messages = [
 
 if __name__ == '__main__':
     api = create_api()
-    tweeted_messages = set()
-    print(’success!’)
+    message = random.choice(messages)
+    tweet(api, message)
+    print('tweeted baybee!')
+    keep_alive()
